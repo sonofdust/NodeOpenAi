@@ -1,5 +1,4 @@
 const express = require("express");
-require("dotenv").config();
 const {getResponse} = require("./OpenAI");
 const app = express();
 app.use(express.json());
